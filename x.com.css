@@ -1,0 +1,39 @@
+aside[aria-label="Who to follow"], 
+div[aria-label="Timeline: Trending now"] {
+    display: none;
+}
+
+div[aria-label="Trending"] > div > div {
+    display: none;
+}
+
+div[aria-label="Trending"] > div > div:first-child {
+    margin-top: 1rem;
+    display: flex;
+}
+a[href="/i/grok"],
+a[href="/jobs"],
+a[href="/gitcommitsudoku/lists"],
+a[href="/i/premium_sign_up"],
+a[href="/i/verified-orgs-signup"],
+a[href="/settings/monetization"],
+a[href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"],
+a[href="/i/spaces/start"],
+a[href="/gitcommitsudoku/communities"],
+a[href="/messages"] {
+    display: none;
+}
+
+
+div[aria-label="Home timeline"] > div:nth-child(1) div[data-testid="ScrollSnap-List"] > div:nth-child(3),
+div[aria-label="Home timeline"] > div:nth-child(1) div[data-testid="ScrollSnap-List"] > div:nth-child(4),
+div[aria-label="Home timeline"] > div:nth-child(1) div[data-testid="ScrollSnap-List"] > div:nth-child(5),
+div[aria-label="Home timeline"] > div:nth-child(1) div[data-testid="ScrollSnap-List"] > div:nth-child(6),
+div[aria-label="Home timeline"] > div:nth-child(1) div[data-testid="ScrollSnap-List"] > div:nth-child(7),
+div[aria-label="Home timeline"] > div:nth-child(1) div[data-testid="ScrollSnap-List"] > div:nth-child(8) {
+    display: none;
+}
+
+a[aria-label="X"] {
+    display: none;
+}
